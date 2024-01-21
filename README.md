@@ -28,15 +28,8 @@ The FizzBuzz API provides two endpoints to perform FizzBuzz calculations and ret
 
 ## Getting Started
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/fizzbuzz-api.git
-   cd fizzbuzz-api
-2. Build instructions
-
-    ### 1. Clone the repository
-      git clone https://github.com/yourusername/fizzbuzz-api.git
+   ### 1. Clone the repository
+      git clone https://github.com/techisan/FizzBuzzAPI.git
 
    ### 2. Change into the project directory
       cd fizzbuzz-api
