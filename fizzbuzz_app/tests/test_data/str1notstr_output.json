@@ -1,0 +1,7 @@
+{
+    "error": {
+        "str1": [
+            "str1 must be alphabetical only."
+        ]
+    }
+}
