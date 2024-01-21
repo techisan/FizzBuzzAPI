@@ -34,6 +34,21 @@ The FizzBuzz API provides two endpoints to perform FizzBuzz calculations and ret
    git clone https://github.com/yourusername/fizzbuzz-api.git
    cd fizzbuzz-api
 2. Build instructions
+
+    ### 1. Clone the repository
+      git clone https://github.com/yourusername/fizzbuzz-api.git
+
+   ### 2. Change into the project directory
+      cd fizzbuzz-api
+   
+   ### 3. Run migrations to set up the database
+   python manage.py makemigrations
+   
+   ### 3. Run migrate to set up the database
+   python manage.py migrate
+
+   ### 4. Run the development server
+   python manage.py runserver
    
 ## Requirements
 Python 3.x
@@ -43,22 +58,22 @@ djangorestframework
 pip install djangorestframework
 
 ## List of Third-Party Libraries Used:
-# Django:
+### Django:
 
 Purpose: Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It provides a robust set of tools for building web applications.
 How Used: Our project is built on the Django framework, leveraging its ORM for database interactions, its views for handling HTTP requests, and its admin interface for managing data.
 
-# Django REST Framework:
+### Django REST Framework:
 
 Purpose: Django REST Framework is a powerful and flexible toolkit for building Web APIs in Django. It provides serializers, authentication, and other utilities for building RESTful APIs.
 How Used: We use Django REST Framework to build and expose our API endpoints, making it easy to handle HTTP methods, validate input, and serialize responses.
 
-# Rest Framework Decorators:
+### Rest Framework Decorators:
 
 Purpose: This library extends Django REST Framework with additional decorators for customizing the behavior of API views.
 How Used: We utilize these decorators to enhance our API views, adding specific functionality or behavior to certain endpoints.
 
-# Django Pagination:
+### Django Pagination:
 
 Purpose: Django Pagination is used to handle paginated responses, making it easier to manage large sets of data.
 How Used: We apply Django Pagination to ensure that responses from certain API endpoints are paginated, enhancing performance and user experience.
