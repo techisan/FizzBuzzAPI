@@ -71,6 +71,10 @@ How Used: We utilize these decorators to enhance our API views, adding specific 
 Purpose: Django Pagination is used to handle paginated responses, making it easier to manage large sets of data.
 How Used: We apply Django Pagination to ensure that responses from certain API endpoints are paginated, enhancing performance and user experience.
 
+## Link to API Documentation:
+[API Documentation][(https://techisan.github.io/FizzBuzzAPI/)]
+Please download the docs/FizzBuzzAPI.html in case of any issues.
+
 ## Contributing
 Feel free to contribute to the development of the FizzBuzz API. Create a pull request or open an issue if you find any bugs or have suggestions.
 
